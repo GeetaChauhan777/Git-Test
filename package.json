@@ -1,12 +1,12 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "my first project",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server" 
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/GeetaChauhan777/Git-Test#readme",
   "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "lite-server": "^2.6.1"
   }
 }
