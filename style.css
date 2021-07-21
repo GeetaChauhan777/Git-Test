@@ -15,7 +15,7 @@
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
-.header {
+.jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
     background: #9575CD ;
@@ -41,4 +41,20 @@ body {
 }
 .badge-secondary{
     background-color: grey;
+    border-radius: 40px;
+}
+.img-fluid{
+    padding-right: 30%;
+}
+.btn-warning{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
