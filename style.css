@@ -11,7 +11,7 @@
 }
 
 .footer{
-    background-color: #b8abd1;
+    background-color: #D1C4E9;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -22,41 +22,30 @@
     color:floralwhite;
 }
 
-.address{
+address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
-body {
+body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
-
 .navbar-dark {
     background-color: #512DA8;
 }
-
-.badge-danger{
-    background-color: red;
+.card-body{
+    margin-top:10px;
 }
-.badge-secondary{
-    background-color: grey;
-    border-radius: 40px;
+.backgd-color{
+    background-color: #f5c423;
+    padding-top: 10px;
 }
-.img-fluid{
-    padding-right: 30%;
-}
-.btn-warning{
-    padding-left: 40px;
-    padding-right: 40px;
-
-}
-
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+.tab-content{
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:10 px;
 }
 .carousel {
     background:#512DA8;
@@ -72,7 +61,16 @@ body {
     left: 0;
     min-height: 300px;
 }
-
+.badge-danger{
+    background-color: red;
+}
+.badge-default{
+    background-color: grey;
+    border-radius: 40px;
+}
+.img-fluid{
+    padding-right: 30%;
+}
 #carouselButton {
     right:0px;
     position: absolute;
